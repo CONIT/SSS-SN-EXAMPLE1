@@ -23,14 +23,14 @@
 		EACC289B1516D6D20061F4DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EACC289D1516D6D20061F4DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EACC289F1516D6D20061F4DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EACC28A31516D6D20061F4DB /* SN-Example1-Info.plist */ = {isa = PBXFileReference; path = "SN-Example1-Info.plist"; sourceTree = "<group>"; };
+		EACC28A31516D6D20061F4DB /* SN-Example1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SN-Example1-Info.plist"; sourceTree = "<group>"; };
 		EACC28A51516D6D20061F4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EACC28A71516D6D20061F4DB /* SN-Example1-Prefix.pch */ = {isa = PBXFileReference; path = "SN-Example1-Prefix.pch"; sourceTree = "<group>"; };
+		EACC28A71516D6D20061F4DB /* SN-Example1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SN-Example1-Prefix.pch"; sourceTree = "<group>"; };
 		EACC28A81516D6D20061F4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EACC28AA1516D6D20061F4DB /* SN_Example1AppDelegate.h */ = {isa = PBXFileReference; path = SN_Example1AppDelegate.h; sourceTree = "<group>"; };
+		EACC28AA1516D6D20061F4DB /* SN_Example1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SN_Example1AppDelegate.h; sourceTree = "<group>"; };
 		EACC28AB1516D6D20061F4DB /* SN_Example1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SN_Example1AppDelegate.m; sourceTree = "<group>"; };
 		EACC28AE1516D6D20061F4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		EACC28B01516D6D20061F4DB /* SN_Example1ViewController.h */ = {isa = PBXFileReference; path = SN_Example1ViewController.h; sourceTree = "<group>"; };
+		EACC28B01516D6D20061F4DB /* SN_Example1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SN_Example1ViewController.h; sourceTree = "<group>"; };
 		EACC28B11516D6D20061F4DB /* SN_Example1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SN_Example1ViewController.m; sourceTree = "<group>"; };
 		EACC28B41516D6D20061F4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SN_Example1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
