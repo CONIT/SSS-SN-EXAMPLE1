@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACC289C1516D6D20061F4DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACC289B1516D6D20061F4DB /* UIKit.framework */; };
+		EACC289E1516D6D20061F4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACC289D1516D6D20061F4DB /* Foundation.framework */; };
+		EACC28A01516D6D20061F4DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACC289F1516D6D20061F4DB /* CoreGraphics.framework */; };
+		EACC28A61516D6D20061F4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACC28A41516D6D20061F4DB /* InfoPlist.strings */; };
+		EACC28A91516D6D20061F4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC28A81516D6D20061F4DB /* main.m */; };
+		EACC28AC1516D6D20061F4DB /* SN_Example1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC28AB1516D6D20061F4DB /* SN_Example1AppDelegate.m */; };
+		EACC28AF1516D6D20061F4DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACC28AD1516D6D20061F4DB /* MainWindow.xib */; };
+		EACC28B21516D6D20061F4DB /* SN_Example1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC28B11516D6D20061F4DB /* SN_Example1ViewController.m */; };
+		EACC28B51516D6D20061F4DB /* SN_Example1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACC28B31516D6D20061F4DB /* SN_Example1ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EACC28971516D6D20061F4DB /* SN-Example1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SN-Example1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC289B1516D6D20061F4DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EACC289D1516D6D20061F4DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EACC289F1516D6D20061F4DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EACC28A31516D6D20061F4DB /* SN-Example1-Info.plist */ = {isa = PBXFileReference; path = "SN-Example1-Info.plist"; sourceTree = "<group>"; };
+		EACC28A51516D6D20061F4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACC28A71516D6D20061F4DB /* SN-Example1-Prefix.pch */ = {isa = PBXFileReference; path = "SN-Example1-Prefix.pch"; sourceTree = "<group>"; };
+		EACC28A81516D6D20061F4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACC28AA1516D6D20061F4DB /* SN_Example1AppDelegate.h */ = {isa = PBXFileReference; path = SN_Example1AppDelegate.h; sourceTree = "<group>"; };
+		EACC28AB1516D6D20061F4DB /* SN_Example1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SN_Example1AppDelegate.m; sourceTree = "<group>"; };
+		EACC28AE1516D6D20061F4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EACC28B01516D6D20061F4DB /* SN_Example1ViewController.h */ = {isa = PBXFileReference; path = SN_Example1ViewController.h; sourceTree = "<group>"; };
+		EACC28B11516D6D20061F4DB /* SN_Example1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SN_Example1ViewController.m; sourceTree = "<group>"; };
+		EACC28B41516D6D20061F4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SN_Example1ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACC28941516D6D10061F4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC289C1516D6D20061F4DB /* UIKit.framework in Frameworks */,
+				EACC289E1516D6D20061F4DB /* Foundation.framework in Frameworks */,
+				EACC28A01516D6D20061F4DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACC288C1516D6D10061F4DB = {
+			isa = PBXGroup;
+			children = (
+				EACC28A11516D6D20061F4DB /* SN-Example1 */,
+				EACC289A1516D6D20061F4DB /* Frameworks */,
+				EACC28981516D6D20061F4DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACC28981516D6D20061F4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACC28971516D6D20061F4DB /* SN-Example1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACC289A1516D6D20061F4DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EACC289B1516D6D20061F4DB /* UIKit.framework */,
+				EACC289D1516D6D20061F4DB /* Foundation.framework */,
+				EACC289F1516D6D20061F4DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACC28A11516D6D20061F4DB /* SN-Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				EACC28AA1516D6D20061F4DB /* SN_Example1AppDelegate.h */,
+				EACC28AB1516D6D20061F4DB /* SN_Example1AppDelegate.m */,
+				EACC28AD1516D6D20061F4DB /* MainWindow.xib */,
+				EACC28B01516D6D20061F4DB /* SN_Example1ViewController.h */,
+				EACC28B11516D6D20061F4DB /* SN_Example1ViewController.m */,
+				EACC28B31516D6D20061F4DB /* SN_Example1ViewController.xib */,
+				EACC28A21516D6D20061F4DB /* Supporting Files */,
+			);
+			path = "SN-Example1";
+			sourceTree = "<group>";
+		};
+		EACC28A21516D6D20061F4DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC28A31516D6D20061F4DB /* SN-Example1-Info.plist */,
+				EACC28A41516D6D20061F4DB /* InfoPlist.strings */,
+				EACC28A71516D6D20061F4DB /* SN-Example1-Prefix.pch */,
+				EACC28A81516D6D20061F4DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACC28961516D6D10061F4DB /* SN-Example1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACC28B81516D6D20061F4DB /* Build configuration list for PBXNativeTarget "SN-Example1" */;
+			buildPhases = (
+				EACC28931516D6D10061F4DB /* Sources */,
+				EACC28941516D6D10061F4DB /* Frameworks */,
+				EACC28951516D6D10061F4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SN-Example1";
+			productName = "SN-Example1";
+			productReference = EACC28971516D6D20061F4DB /* SN-Example1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACC288E1516D6D10061F4DB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EACC28911516D6D10061F4DB /* Build configuration list for PBXProject "SN-Example1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EACC288C1516D6D10061F4DB;
+			productRefGroup = EACC28981516D6D20061F4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACC28961516D6D10061F4DB /* SN-Example1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACC28951516D6D10061F4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC28A61516D6D20061F4DB /* InfoPlist.strings in Resources */,
+				EACC28AF1516D6D20061F4DB /* MainWindow.xib in Resources */,
+				EACC28B51516D6D20061F4DB /* SN_Example1ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACC28931516D6D10061F4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC28A91516D6D20061F4DB /* main.m in Sources */,
+				EACC28AC1516D6D20061F4DB /* SN_Example1AppDelegate.m in Sources */,
+				EACC28B21516D6D20061F4DB /* SN_Example1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EACC28A41516D6D20061F4DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC28A51516D6D20061F4DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EACC28AD1516D6D20061F4DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC28AE1516D6D20061F4DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EACC28B31516D6D20061F4DB /* SN_Example1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC28B41516D6D20061F4DB /* en */,
+			);
+			name = SN_Example1ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACC28B61516D6D20061F4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACC28B71516D6D20061F4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EACC28B91516D6D20061F4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SN-Example1/SN-Example1-Prefix.pch";
+				INFOPLIST_FILE = "SN-Example1/SN-Example1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EACC28BA1516D6D20061F4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SN-Example1/SN-Example1-Prefix.pch";
+				INFOPLIST_FILE = "SN-Example1/SN-Example1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACC28911516D6D10061F4DB /* Build configuration list for PBXProject "SN-Example1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC28B61516D6D20061F4DB /* Debug */,
+				EACC28B71516D6D20061F4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACC28B81516D6D20061F4DB /* Build configuration list for PBXNativeTarget "SN-Example1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC28B91516D6D20061F4DB /* Debug */,
+				EACC28BA1516D6D20061F4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACC288E1516D6D10061F4DB /* Project object */;
+}
