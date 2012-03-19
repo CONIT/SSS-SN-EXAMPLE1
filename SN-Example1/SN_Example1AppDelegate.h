@@ -13,9 +13,9 @@
 @interface SN_Example1AppDelegate : NSObject <UIApplicationDelegate> {
 
 }
+- (void) sendAPNsToken:(NSData*)devicetoken;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet SN_Example1ViewController *viewController;
 
 @end
