@@ -12,12 +12,12 @@
 
 
 // SN_SERVER_URLとSN_ACCESS_TOKENは、SamuraiNotification登録後に発行されますので適宜書き換えてください
-#define SN_SERVER_URL @"samurai notification server url"
+#define SN_SERVER_URL @"https://アプリに割り当てられたAPIサーバのホスト名/v2/ios/devices/"
 
 #ifdef DEBUG
-#define SN_ACCESS_TOKEN @"samurai notification server access token for SANDBOX environment"
+#define SN_ACCESS_TOKEN @"<SANDBOX環境token>"
 #else
-#define SN_ACCESS_TOKEN @"samurai notification server access token for LIVE environment"
+#define SN_ACCESS_TOKEN @"<LIVE環境token>"
 #endif
 
 
