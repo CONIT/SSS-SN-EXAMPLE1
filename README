@@ -21,3 +21,6 @@ Twitter
 https://twitter.com/#!/conit
 
 
+2012-6-13 追記
+XCode4.3でログがでない場合は、
+Edit SchemaにてDebuggerをLLDBからGDBに変えてみてください。
