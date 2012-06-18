@@ -136,6 +136,16 @@
     NSLog(@"SamuraiNotificationサーバに送信失敗しました。理由[%@]",[error localizedDescription]);
 }
 
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    /*
+     No.7
+     バッジを初期化します。
+     ※このサンプルアプリでは起動時（バックグラウンド含む）にバッジを初期化します。
+     */
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+}
 
 
 
